@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>SCP FOND</title>
+        
+        <style>
+            body {background-color: #b1b1b1;}
+            
+         .text {
+            text-align:  center;
+            font-size: 150%;
+            }
+            
+            .scp2{
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="text">
+            <big style="color: red;"> SCP Fond</big>
+        </div>
+        <div class="scp2">
+            <img src="scp096fond.jpg" style="width: 20%">
+            <form>
+                <input type="button" value="информация о фонде SCP" onclick="openSCPFond()" style="width: 315;">
+            </form>
+        </div>
+            
+        <div class="scp">
+            <img src="scp096.webp" alt="096" style="width:20%">
+            <img src="scpfond682.webp" alt="682" style="width: 870; height: 600">
+            <img src="scp173.jpg" alt="173" style="float:right;width:24%">
+            
+        
+        <form>
+            <input type="button" value="информация о SCP096" onclick="openSCP096()" style="width: 317;">
+            <input type="button" value="информация о SCP682" onclick="openSCP682()" style="width: 870;">
+            <input type="button" value="информация о SCP173" onclick="openSCP173()" style="float:right;width: 370">
+            
+        </form>      
+            
+        </div>
+
+        <script>
+            
+            function openSCPFond() {
+                window.open("file:///E:/SCPFondInfo.html");
+            }
+            
+            function openSCP096() {
+                    window.open("file:///E:/ScpSkromnik.html");
+                }
+            function openSCP682(){
+                window.open("file:///E:/scp682fond.html");
+            }
+            function openSCP173(){
+                window.open("file:///E:/SCP173.html");
+            }
+            
+        </script>
+    </body>
+</html>
